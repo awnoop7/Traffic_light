@@ -31,10 +31,14 @@ ctx.closePath();
 //stand
 ctx.beginPath();
 ctx.fillStyle = "gray";
-ctx.fillRect(w_width/2-10,w_height/2+80,20,300);
+ctx.fillRect(w_width/2-10,w_height/2+80,20,100);
 ctx.fill();
 ctx.closePath();
 
 //road
-
+ctx.beginPath();
+ctx.fillStyle = "black";
+ctx.fillRect(0,w_height/2+180,w_width,200);
+ctx.fill();
+ctx.closePath();
 
